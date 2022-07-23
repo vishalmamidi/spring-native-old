@@ -18,8 +18,18 @@ run by
 ./springnative
 ```
 
+## running traditional jar 
 
-## setup graalVM
+<img align=center src=assets/jar1.png>  
+<img align=center src=assets/jar2.png>
+
+## running native image
+
+<img align=center src=assets/native1.png>
+<img align=center src=assets/native2.png>
+
+
+## setup GraalVM
 
 https://docs.oracle.com/en/graalvm/enterprise/20/docs/docs/getting-started/linux/
 

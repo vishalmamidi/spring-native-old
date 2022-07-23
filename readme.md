@@ -30,10 +30,11 @@ tar -xzf <graalvm-archive>.tar.gz
 cd graalvm-ce-java17-22.1.0 ~/bin
 
 ```
+
 ```
+export GRAALVM_HOME=${HOME}/bin/graalvm-ce-java17-22.1.0
 export JAVA_HOME=${HOME}/bin/graalvm-ce-java17-22.1.0
 export PATH=$JAVA_HOME/bin:$PATH
-
 ```
 
 add export's to .zshrc .bashrc and source them 

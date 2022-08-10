@@ -15,7 +15,7 @@ native image will be generated at `/home/vishal/workspace/springnative/build/`
 run by 
 
 ```
-./springnative
+./spring-native
 ```
 
 ## running traditional jar 

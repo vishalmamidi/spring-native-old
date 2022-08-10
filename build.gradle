@@ -26,6 +26,8 @@ tasks.named('test') {
 bootBuildImage {
 	builder = 'paketobuildpacks/builder:tiny'
 	environment = ['BP_NATIVE_IMAGE': 'true']
-	buildpacks = ["gcr.io/paketo-buildpacks/graalvm", "gcr.io/paketo-buildpacks/java-native-image"]
+//	buildpacks = ["gcr.io/paketo-buildpacks/graalvm", "gcr.io/paketo-buildpacks/java-native-image"]
+
+	buildpacks = ["gcr.io/paketo-buildpacks/java-native-image:7.19.0"]
 
 }

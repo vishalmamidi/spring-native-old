@@ -11,3 +11,4 @@ jobs:
   reusable-build:
     name: build
     uses: vishalmamidi/workflows/.github/workflows/build-gradle-native.yml@main
+    secrets: inherit

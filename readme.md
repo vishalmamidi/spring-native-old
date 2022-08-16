@@ -49,3 +49,10 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 add export's to .zshrc .bashrc and source them 
 
+
+# deply to app service 
+```
+az webapp config container set --resource-group free_app_service --name vishalmamidi  --docker-custom-image-name ghcr.io/vishalmamidi/spring-native:latest
+az webapp config appsettings set --resource-group free_app_service --name vishalmamidi --settings WEBSITES_PORT=8080
+```
+
